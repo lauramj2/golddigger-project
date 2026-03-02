@@ -35,7 +35,7 @@ form.addEventListener("submit", async function (e) {
     const ounces = (investmentAmount / Number(priceDisplay.textContent)).toFixed(2)
 
     //update investment summary
-    investmentSummary.innerHTML = `You just bought ${ounces} ounces for $${priceDisplay.textContent}. 
+    investmentSummary.innerHTML = `You just bought ${ounces} ounces for $${input.value}. 
                                     You will receive documentation shortly.`
 
     //store user input in an object

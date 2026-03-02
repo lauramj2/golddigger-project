@@ -34,5 +34,23 @@
     "price per oz": "$2050.56",
     "gold sold": "0.44 Oz",
     "time of purchase": "2026-03-02T20:27:34.870Z"
+  },
+  {
+    "amount paid": "$90007",
+    "price per oz": "$2050.92",
+    "gold sold": "43.89 Oz",
+    "time of purchase": "2026-03-02T20:39:31.366Z"
+  },
+  {
+    "amount paid": "$898",
+    "price per oz": "$2050.55",
+    "gold sold": "0.44 Oz",
+    "time of purchase": "2026-03-02T20:40:17.118Z"
+  },
+  {
+    "amount paid": "$787",
+    "price per oz": "$2050.31",
+    "gold sold": "0.38 Oz",
+    "time of purchase": "2026-03-02T20:40:25.568Z"
   }
 ]
