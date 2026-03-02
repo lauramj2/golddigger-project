@@ -3,15 +3,15 @@ import fs from "node:fs/promises"
 import { getData } from "./getData.js"
 
 export async function addUserInput(newData) {
-    try {
-        const data = await getData()
-        data.push(newData)
+    const pathJSON = path.join('data', 'userData.json')
+    
+    const data = await getData()
+    data.push({
+        ...newData,
+        "time of purchase": new Date().toISOString()
+    })
 
-        const pathJSON = path.join('data', 'userData.json')
+    console.log(data)
 
-        await fs.writeFile(pathJSON, JSON.stringify(data))
-    }
-    catch (err) {
-        throw new Error(err)
-    }
+    await fs.writeFile(pathJSON, JSON.stringify(data, null, 2))
 }

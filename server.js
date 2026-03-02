@@ -1,19 +1,19 @@
 import http from "node:http"
-import  fs from "node:fs"
-import path from "node:path"
-import { fileURLToPath } from "node:url"
+// import  fs from "node:fs"
+// import path from "node:path"
+// import { fileURLToPath } from "node:url"
 import { serveStatic } from "./utils/serveStatic.js"
 import { handleGet, handlePost } from "./handlers/routeHandlers.js"
 
 const PORT = 3000
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+// const __filename = fileURLToPath(import.meta.url)
+// const __dirname = path.dirname(__filename)
+
+// const __filename = import.meta.filename
+const __dirname = import.meta.dirname
 
 const server = http.createServer(async (req, res) => {
-
-    let filePath = path.join(__dirname, 'public', 'index.html')
-    
     if (req.url === "/api") {
         if (req.method === "GET") {
             return await handleGet(res)

@@ -1,1 +1,38 @@
-[{"amount":"4"},{"amount":"5"},{"amount":"5"},{"amount":"5"},{"amount":"5"},{"amount":"6"},{"amount":"4"},{"amount":"5"},{"amount":"5"},{"amount":"4"}]
+[
+  {
+    "amount paid": "$5",
+    "price per oz": "$2050.83",
+    "gold sold": "0.00 Oz",
+    "time of purchase": "2026-03-02T19:04:43.093Z"
+  },
+  {
+    "amount paid": "$890",
+    "price per oz": "$2050.85",
+    "gold sold": "0.43 Oz",
+    "time of purchase": "2026-03-02T19:41:22.141Z"
+  },
+  {
+    "amount paid": "$89",
+    "price per oz": "$2047.93",
+    "gold sold": "0.04 Oz",
+    "time of purchase": "2026-03-02T20:00:51.375Z"
+  },
+  {
+    "amount paid": "$900",
+    "price per oz": "$2056.14",
+    "gold sold": "0.44 Oz",
+    "time of purchase": "2026-03-02T20:02:00.659Z"
+  },
+  {
+    "amount paid": "$890",
+    "price per oz": "$2049.19",
+    "gold sold": "0.43 Oz",
+    "time of purchase": "2026-03-02T20:03:18.156Z"
+  },
+  {
+    "amount paid": "$900",
+    "price per oz": "$2050.56",
+    "gold sold": "0.44 Oz",
+    "time of purchase": "2026-03-02T20:27:34.870Z"
+  }
+]
